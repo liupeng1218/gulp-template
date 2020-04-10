@@ -1,4 +1,4 @@
-# gulp模板 wiki
+# gulp tmplate
 
 `gulp`是一款基于`node`流的自动化构建工具，可以将前端项目中的部分任务自动化完成
 
