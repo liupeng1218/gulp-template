@@ -1,0 +1,35 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "Take gulp as the template of scaffolding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "serve:dev": "gulp dev",
+    "serve:pro": "gulp pro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-connect": "^5.7.0",
+    "http-proxy-middleware": "^0.19.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^5.0.3",
+    "imagemin-pngquant": "^8.0.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-rev-collector": "^1.3.1",
+    "gulp-rev-format": "^1.0.4"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "browser": true
+    }
+  }
+}
